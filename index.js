@@ -6,7 +6,7 @@
 var randomPicture1 = Math.floor(Math.random() * 3) + 1; // +1 for not having the starting 0
 
 // 4th create a variable called 'randomImage'
-var randomImage1 = "rcp" + randomPicture1 + ".jpg"; // string to image1 - image3
+var randomImage1 = "rsp" + randomPicture1 + ".jpg"; // string to image1 - image3
 
 // 5th create a variable called 'randomImageSource' to change the value from the source attribute in our image.
 var randomImageSource1 = "images/" + randomImage1; // images/image1.jpg in the destination folder
@@ -22,7 +22,7 @@ image1.setAttribute('src', randomImageSource1)
 // step 3
 var randomPicture2 = Math.floor(Math.random() * 3) + 1;
 // step 4
-var randomImage2 = "rcp" + randomPicture2 + ".jpg";
+var randomImage2 = "rsp" + randomPicture2 + ".jpg";
 // step 5
 var randomImageSource2 = "images/" + randomImage2;
 // step 6
@@ -33,9 +33,9 @@ image2.setAttribute('src', randomImageSource2)
 
 
 // location for the img, for comparison purposes
-var rock = "rcp1.jpg";
-var paper = "rcp2.jpg";
-var scissor = "rcp3.jpg";
+var rock = "rsp1.jpg";
+var paper = "rsp2.jpg";
+var scissor = "rsp3.jpg";
 
 // IF STATEMENT FOR THE RANDOM WINNER
 if (randomImage1 === rock && randomImage2 === scissor) {
